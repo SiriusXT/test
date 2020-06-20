@@ -1,0 +1,69 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+#sj_land{
+	width: 100%;
+	height: 640px;
+	position: absolute;
+	/*left: 20px;*/
+	background: -moz-linear-gradient(bottom, #C1C1C1, #FFFFFF);
+	background: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#C1C1C1), to(#FFFFFF));
+}
+.imgleft{
+	width: 670px;
+	height: 200px;
+	position: absolute;
+	top: 150px;
+	left: 60px;
+}
+.biglogin h3{
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	top: 150px;
+	right: 260px;
+}
+.biglogin{
+	width: 1200px;
+	height: 550px;
+	position: absolute;
+	top: 40px;
+	left: 80px;
+	background: #F0F3F8;
+}
+.logino{
+	width: 290px;
+	height: 200px;
+	position: absolute;
+	top: 200px;
+	right: 100px;
+}
+.logint{
+	margin: 20px;
+}
+.passwordstyle{
+	top: 60px;
+	position: absolute;
+}
+.contstyle{
+	width: 80px;
+	height: 30px;
+	position: absolute;
+	top: 100px;
+	/*background: #F0F3F8;*/
+    /*font-size: 20px;*/
+}
+.buttonstyle{
+	width: 80px;
+	height: 30px;
+	position: absolute;
+	top: 100px;
+	left: 135px;
+}
+.astyle{
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	top: 150px;
+}

@@ -1,0 +1,54 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+/*#content{
+	width: 1310px;
+	height: 1300px;
+	margin: 20px;
+	/*background: #F5F5F5;*/
+	background: -moz-linear-gradient(top, #FFFFFF, #F5F5F5);
+	background: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#FFFFFF), to(#F5F5F5));
+	position: absolute;
+}*/
+
+/*--标题--*/
+.title{
+	width: 841px;
+	height: 251px;
+	position: absolute;
+	top: 150px;
+	left: 860px;
+}
+.title img{
+	width: 841px;
+	height: 251px;
+	position: absolute;
+}
+.titleslide{
+	width: 1310px;
+	height: 500px;
+	position: absolute;
+	opacity: 0.5;
+	/*background: wheat;*/
+	overflow: hidden;
+}
+.small{
+	width: 150px;
+	height: 800px;
+	transform: rotate(-30deg);
+	background: white;
+	opacity: 0.5;
+	position: absolute;
+	top: -200px;
+	left: -130px;
+}
+.small-Animate{
+	left: 1600px;
+	transition: left 4s;
+}
+
+
+
+
+

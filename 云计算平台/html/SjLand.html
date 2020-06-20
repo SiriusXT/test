@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>山东建筑大学云计算平台</title>
+		
+		<link rel="stylesheet" type="text/css" href="../css/loginstyle.css"/>
+		
+		<script type="text/javascript">
+			function InputCheck(){
+  				if (LoginForm.sj_land_id.value == "")
+  				{
+  				  alert("请输入用户名!");
+  				  LoginForm.sj_land_id.focus();
+  				  return (false);
+ 				}
+  				else if (LoginForm.sj_land_code.value == "")
+				{
+  				  alert("请输入密码!");
+  				  LoginForm.sj_land_code.focus();
+ 				  return (false);
+  				}
+				else return true;
+			}
+		</script>
+	</head>
+	<body>
+		<!--输入框-->
+			<div id="sj_land">
+				<div class="biglogin">
+					<img src="../img/title_logo_g.png" class="imgleft"/>
+					<h3>用户登录</h3>
+				<fieldset class="logino">
+				<!--<legend>&nbsp;&nbsp;用户登录</legend>-->
+				<form  action="#"   method="post"  name="LoginForm" class="logint">
+					<div class="text">
+					&nbsp;账&nbsp;号:<input type="text" name="sj_land_id" placeholder="请输入账号" />
+					</div>
+					
+					<div class="passwordstyle">
+					&nbsp;密&nbsp;码:<input type="password" name="sj_land_code" placeholder="请输入密码" />
+					</div>
+					
+					<!--<label for="male">Male</label>
+					<input type="radio" name="sex" id="male" /><br />
+					<label for="female">Female</label>
+					<input type="radio" name="sex" id="female" />-->
+					<input name="cont" value="登录" type="button" class="contstyle"					
+				     onclick="InputCheck();" 
+					>
+					<!--<input type="reset" value="重置" />-->
+					<input type="button" value="返回"  class="buttonstyle"/>
+					<a href="SjRegis.html" class="astyle"><p>没有账号?点我注册!</p></a>
+				</fieldset>
+				</form>
+				
+				</div>
+				
+			</div>
+			
+	</body>
+</html>

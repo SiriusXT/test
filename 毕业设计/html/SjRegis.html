@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/registerstyle.css"/>
+		<script type="text/javascript">
+			function InputCheck(){
+  				if (LoginForm.sj_regis_id.value == "")
+  				{
+  				  alert("请输入用户名!");
+  				  LoginForm.sj_regis_id.focus();
+  				  return (false);
+ 				}
+  				else if (LoginForm.sj_regis_code.value == "")
+				{
+  				  alert("请输入密码!");
+  				  LoginForm.sj_regis_code.focus();
+ 				  return (false);
+  				}
+				else if (LoginForm.sj_regis_name.value == "")
+				{
+  				  alert("请输入昵称!");
+  				  LoginForm.sj_regis_name.focus();
+ 				  return (false);
+  				}
+				else if (LoginForm.sj_regis_code.value != LoginForm.sj_regis_codeconfirm.value)
+				{
+  				  alert("两次密码不匹配!");
+  				  LoginForm.sj_regis_codeconfirm.focus();
+ 				  return (false);
+  				}
+				else return true;
+			}
+		</script>
+	</head>
+	<body>
+		<!--输入框-->
+			<div id="sj_land">
+				<div class="bigregister">
+					<img src="../img/title_logo_g.png" class="imgtop" style="height: 200px" />
+					<h3>欢迎注册</h3>
+				<fieldset class="registero">
+				<!--<legend>欢迎用户注册</legend>-->
+				<form  action="#"   method="post" name="LoginForm">
+					<div class="one">
+					账&nbsp;号:&nbsp;<input type="text" name="sj_regis_id" placeholder="请输入账号" />
+					</div>
+					<div class="two">
+					密&nbsp;码:&nbsp;<input type="password" name="sj_regis_code" placeholder="请输入密码" />
+					</div>
+					<div class="three">
+					确认密码:<input type="password" name="sj_regis_codeconfirm" placeholder="请输入密码" />
+					</div>
+					<div class="four">					
+					昵&nbsp;称:&nbsp;<input type="text" name="sj_regis_name" placeholder="请输入昵称" />
+					</div>
+					<!--<label for="male">Male</label>
+					<input type="radio" name="sex" id="male" /><br />
+					<label for="female">Female</label>
+					<input type="radio" name="sex" id="female" />-->
+					<input name="cont" value="提交" type="button" 					
+					
+					 class="cont" onclick="InputCheck();" 
+					>
+					<input type="reset" value="重置" class="reset"/>
+				</fieldset>
+				</form>
+				</div>
+				
+			</div>
+			
+	</body>
+</html>

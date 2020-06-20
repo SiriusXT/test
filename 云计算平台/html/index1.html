@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<?php
+session_start();
+?>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>山东财经大学综合服务中心</title>
+		
+		<script src="../js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/SjScript.js" type="text/javascript" charset="utf-8"></script>
+		
+		<link rel="stylesheet" type="text/css" href="../css/mainpageStyle.css"/>
+
+	</head>
+	<body>
+		
+		<div id="content">
+			
+			<div class="top">
+				
+				<div class="logo">
+					<!--<img src="../img/logo.png"/>-->
+				</div>
+				
+				<div id="search">
+					
+					<a href="SjRegis.html">
+						<div class="zc-div">
+							<p>注册</p>
+						</div>
+					</a>
+					<a href="SjLand.html">
+						<div class="dl-div">
+							<p>登录</p>
+						</div>
+					</a>					
+				</div>
+				<!-- <?php
+					if(isset($_SESSION['user'])){
+						$temp = $_SESSION['name'];
+						echo "<script charset='utf-8' type='text/javascript'>
+									document.getElementById('search').innerHTML='<br/>&nbsp;&nbsp;&nbsp;欢迎您,'+'$temp!';
+								</script>"; 
+						}	
+					?> -->
+				
+			</div>
+			<!--当前校区-->
+			<div class="dqxq">
+				<a href="../html/index.html"><b>临港校区</b><a>
+			</div>
+			<div class="span">
+				<img src="../img/对话框.png"/>
+			</div>
+			<div class="mainlist">
+				<!--当前校区-->
+				<!--<div class="dqxq">
+				<b>圣井校区</b>
+				</div>-->
+				<!--导航菜单-->
+				
+				<!-- <a href="#" class="ConnectUs">关于我们</a> -->
+				<a href="#tips3">校园资讯</a>
+				<a href="#tips2">校区快递</a>
+				<a href="#tip4">跳蚤市场</a>
+				<a href="#tip5">失物招领</a>
+				<a href="#tips1">爱心社团</a>
+				
+			</div>
+			
+			<!--大字或者图片-->
+			<div class="big">
+				<b><p>SHANDONG JIANZHU UNIVERSITY</p></b>
+			</div>
+			<div class="small">
+				<p>SERVICE CENTER</p>
+			</div>
+			
+		</div>
+		
+		<!--帖子模块-->
+		<a id="tips1"></a>
+		<div id="modules">
+			
+			<!--爱心社团-->
+			<div class="axst">
+				
+				<!--爱心社团二级菜单位置left-->
+				<div class="axstList">
+					<hr width="30px" color="#000000" size="2" />
+					<h1>爱心社团</h1><br />
+					<p>陶行知协会 爱心协会 青年学生协会 各类公益性社团的聚集地</p>
+					<!-- <a href="#tips1" class="axstmore" onclick="alert('该栏目尚在开发敬请期待！')">MORE+</a> -->
+				</div>
+				
+				<!--爱心社团内容-->
+				<div class="axstContent">
+					<!--文本一-->
+					<div class="axsttxt1">
+						<br/>爱心公益协会  <br/><br/> &nbsp;&nbsp;今日爱协举办了无偿献血活动，同学们献血的热情非常高涨，很好的诠释了点点滴滴热血浓，人大博爱处处情，生命有限爱心无限的真谛。让我们一起继续把爱作为我们前进的方向，作为永不褪变的主题。今天的活动已经结束，明天献血活动继续，二餐门口爱协与你不见不散。
+
+					</div>
+					<!--文本二-->
+					<div class="axsttxt2">
+						<br/>陶行知协会 <br/><br/> &nbsp;&nbsp;支教的小船说走就走，梦想的巨轮说开就开,你想为大学生活添上了绚丽的色彩~你想收获一个不一样的假期吗？？想体验当老师的感觉吗？？想锻炼自己的能力吗？？还在犹豫什么，赶快加入陶协，和我们一起来支教吧报名表提取码taoxiezhijiao
+
+					</div>
+					<!--文本三-->
+					<div class="axsttxt3">
+						<br/>泉城公益协会  <br/><br/> &nbsp;&nbsp;知识因传播而美丽，心灵因交流而贴近。漂流知识的同时传递着诚信跟友谊。同学们可以把自己闲置 书本拿出来，通过我们的平台与更多人分享，继续这本书的漂流旅程。 赶紧行动起来吧  妹纸们～让我们漂流找到我们的仲基老公！汉子们～通过漂流取得撩妹神技
+					</div>
+					<!--文本四-->
+					<div class="axsttxt4">
+					    <br/>青年志愿者协会  <br/><br/> &nbsp;&nbsp;有一种语言,没有声音,只需要屏气凝神,就可感受其真谛.这就是手语,聋哑人与世界交流的语言.尽管他们一直生活在无声的世界里,可他们依然渴望去了解,去倾听繁华世界的变迁.,而手语正是他们打开无声世界大门的钥匙.我们不是聋哑人,可聋哑人需要我们的关爱,需要我们倾听与诉说.深处优越环境的你们，是否也愿意多学一门他们的语言，将千千万万的他们带出自卑的深渊，带他们入生活正轨，感受手语之美！周六晚8点青协将与你进行深入探讨。
+					</div>
+					
+				</div>
+				
+			</div>
+			<hr width="1200px" color="#ADADAD" size="2" class="bottomline1"/>
+			
+			<!--失物招领-->
+			<div class="swzl" id="tip5">
+				
+				<!--失物招领二级菜单位置right-->
+				<div class="swzlList">
+					<hr width="30px" color="#000000" size="2" />
+					<h1>失物招领</h1><br />
+					<p>我在马路边捡到一分钱，把它交到警察叔叔手里边，叔叔拿着钱，对我把头点，我高兴地说了声：“叔叔，再见”</p>
+					<!-- <a href="LostIndex.php" class="swzlmore">MORE+</a> -->
+				</div>
+				
+				<!--失物招领内容-->
+				<div class="swzlContent">
+					<!--文本一-->
+					<div class="swzltxt1">
+						<br/>丢失讯息一  <br/><br/> 
+						我以为考完概率论的美好一周来了，结果考迷糊的我发现我的U盘宝宝不见了！U盘不见了   。这个U盘没有任何挂饰，红黑色，表面写有“SanDisk”，自定义名为“小禾”。有木有有缘的人捡到，希望你能带着它来到我身边！里面的东西对个人来说很重要，很重要，很重要。   求转发，求扩散。感恩你们   一生平安。如果有什么消息系17862925505，必有重谢
+						<!-- <?php
+						//连接数据库
+						$link = mysql_connect("localhost", "root", "scll");
+						if (!$link) {
+							die('Could not connect: ' . mysql_error());
+						}
+						mysql_select_db("my_db", $link);
+						$result = mysql_query("SELECT * FROM SjLostLog order by id desc limit 0,1");
+						while ($row = mysql_fetch_array($result)) {
+						echo "<table class='lost_infor'>";
+						//第一行
+						echo "<tr>";
+						echo "<td>姓名 ：</td>";
+						echo "<td>" . $row['Name'] . "</td>";
+						echo "</tr>";
+						//第二行
+						echo "<tr>";
+						echo "<td>丢失物件类型：</td>";
+						echo "<td>" . $row['Type'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>丢失物品时间：</td>";
+						echo "<td>" . $row['Time'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>丢失物品地点：</td>";
+						echo "<td>" . $row['Place'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>联系方式QQ：</td>";
+						echo "<td>" . $row['Con'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>手机号码:</td>";
+						echo "<td>" . $row['Conp'] . "</td>";
+						echo "</tr>";
+						echo "</table>";
+						}
+						mysql_close($link);
+					    ?> -->
+					</div>
+					<!--文本二-->
+					<div class="swzltxt2">
+						<br/>丢失讯息二 <br/><br/> 寻网球拍（黑色袋子写着Adidas，网球拍是蓝色）上周五七八节体育课后落在操场，时隔一周才发。如哪位好心人在朋友圈看到过它的身影，请与我联系一下，万分感激（尽管我知道可能性很小 ）
+						<!-- <?php
+						//连接数据库
+						$link = mysql_connect("localhost", "root", "scll");
+						if (!$link) {
+							die('Could not connect: ' . mysql_error());
+						}
+						mysql_select_db("my_db", $link);
+						$result = mysql_query("SELECT * FROM SjLostLog order by id desc limit 1,1");
+						while ($row = mysql_fetch_array($result)) {
+						echo "<table class='lost_infor'>";
+						//第一行
+						echo "<tr>";
+						echo "<td>姓名 ：</td>";
+						echo "<td>" . $row['Name'] . "</td>";
+						echo "</tr>";
+						//第二行
+						echo "<tr>";
+						echo "<td>丢失物件类型：</td>";
+						echo "<td>" . $row['Type'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>丢失物品时间：</td>";
+						echo "<td>" . $row['Time'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>丢失物品地点：</td>";
+						echo "<td>" . $row['Place'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>联系方式QQ：</td>";
+						echo "<td>" . $row['Con'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>手机号码:</td>";
+						echo "<td>" . $row['Conp'] . "</td>";
+						echo "</tr>";
+						echo "</table>";
+						}
+						mysql_close($link);
+					    ?> -->
+					</div>
+					<!--文本三-->
+					<div class="swzltxt3">
+						<br/>捡到讯息一<br/><br/> 在下的水卡又丢了。。。又丢了。继卡贴 海 鸟 绘绘里 后 轮到了 凛喵 闹到要把除了希之外的其他member都丢完才肯罢休吗？2333。求捡到的小伙伴联系在下：17862921551
+						<!-- <?php
+						//连接数据库
+						$link = mysql_connect("localhost", "root", "scll");
+						if (!$link) {
+							die('Could not connect: ' . mysql_error());
+						}
+						mysql_select_db("my_db", $link);
+						$result = mysql_query("SELECT * FROM sjpicklog order by id desc limit 0,1");
+						while ($row = mysql_fetch_array($result)) {
+						echo "<table class='lost_infor'>";
+						//第一行
+						echo "<tr>";
+						echo "<td>姓名 ：</td>";
+						echo "<td>" . $row['Name'] . "</td>";
+						echo "</tr>";
+						//第二行
+						echo "<tr>";
+						echo "<td>捡到物件类型：</td>";
+						echo "<td>" . $row['Type'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>捡到物品时间：</td>";
+						echo "<td>" . $row['Time'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>捡到物品地点：</td>";
+						echo "<td>" . $row['Place'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>联系方式QQ：</td>";
+						echo "<td>" . $row['Con'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>手机号码:</td>";
+						echo "<td>" . $row['Conp'] . "</td>";
+						echo "</tr>";
+						echo "</table>"; 
+						}
+						mysql_close($link);
+					    ?>-->
+					</div>
+					<!--文本四-->
+					<div class="swzltxt4">
+						<br/>捡到讯息二 <br/><br/> 本人于今日中午图书馆至西苑餐厅途中丢失一张饭卡，计科院数媒1班孟文秀20141824126。有木有捡到的同学，希望联系我13245314813，谢谢
+						<!-- <?php
+						//连接数据库
+						$link = mysql_connect("localhost", "root", "scll");
+						if (!$link) {
+							die('Could not connect: ' . mysql_error());
+						}
+						mysql_select_db("my_db", $link);
+						$result = mysql_query("SELECT * FROM sjpicklog order by id desc limit 1,1");
+						while ($row = mysql_fetch_array($result)) {
+						echo "<table class='lost_infor'>";
+						//第一行
+						echo "<tr>";
+						echo "<td>姓名 ：</td>";
+						echo "<td>" . $row['Name'] . "</td>";
+						echo "</tr>";
+						//第二行
+						echo "<tr>";
+						echo "<td>捡到物件类型：</td>";
+						echo "<td>" . $row['Type'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>捡到物品时间：</td>";
+						echo "<td>" . $row['Time'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>捡到物品地点：</td>";
+						echo "<td>" . $row['Place'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>联系方式QQ：</td>";
+						echo "<td>" . $row['Con'] . "</td>";
+						echo "</tr>";
+						echo "<tr>";
+						echo "<td>手机号码:</td>";
+						echo "<td>" . $row['Conp'] . "</td>";
+						echo "</tr>";
+						echo "</table>";
+						}
+						mysql_close($link);
+					    ?> -->
+					</div>
+					
+				</div>
+				
+			</div>
+			<hr width="1200px" color="#ADADAD" size="2" class="bottomline2"/>
+			
+			<!--跳蚤市场-->
+			<div class="tzsc" id="tip4">
+				
+				<!--跳蚤市场二级菜单位置left-->
+				<div class="tzscList" >
+					<hr width="30px" color="#000000" size="2" />
+					<h1>跳蚤市场</h1><br />
+					<p>一应俱全，应有尽有。价格低廉，仅为新货价格的10%～30%。现在在大多数学校都会举办一年一度的跳蚤市场活动。</p>
+					<!-- <a href="SjJumphtml/index1.php" class="tzscmore">MORE+</a> -->
+				</div>
+				
+				<!--跳蚤市场内容-->
+				<div class="tzscContent">
+					<!--文本一-->
+					<div class="tzsctxt1">
+						<br/>讯息一  <br/><br/>因搬校区的原因，含泪出售陪伴我两年的雅马哈电子琴，原来买的时候600大洋，现忍痛出售只要300，对没错只要300软妹币就能带回家，联系弹琴成为一个有艺术涵养的人，还在犹豫什么赶快联系我吧。联系电话17862925520.
+						<!-- <?php
+							//连接数据库
+							$link = mysql_connect("localhost", "root", "scll");
+							if (!$link) {
+								die('Could not connect: ' . mysql_error());
+							}
+							//选择数据库
+							mysql_select_db("my_db", $link);
+							//显示在页面上
+							$result = mysql_query("select * from sjdeallog order by id desc limit 0,1") or die(mysql_error());
+							while ($row = mysql_fetch_array($result)) {
+							//为添加的内容设置样式
+							echo "<table class='sell_infor'>";
+							//第一行
+							echo "<tr>";
+							echo "<td>姓名 ：</td>";
+							echo "<td>" . $row['username'] . "</td>";
+							echo "</tr>";
+							//第二行
+							echo "<tr>";
+							echo "<td>物件类型：</td>";
+							echo "<td>" . $row['type'] . "</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>实物图片：</td>";
+							echo "<td>详情请点击该栏目左下方MORE+</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>建议价格：</td>";
+							echo "<td>" . $row['price'] . "</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>详细描述：</td>";
+							echo "<td><textarea rows='5' cols='20' disabled='disabled'>" . $row['detail'] . "</textarea></td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>联系方式QQ：</td>";
+							echo "<td>" . $row['con'] . "</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>手机号码:</td>";
+							echo "<td>" . $row['conp'] . "</td>";
+							echo "</tr>";
+							echo "</table>";
+							}
+							mysql_close($link);
+						?> -->
+					</div>
+					<!--文本二-->
+					<div class="tzsctxt2">
+						<br/>讯息二  <br/><br/>你是否是一个宅男，渴望锻炼但又不愿去健身房。你是否是一个宅女，在减肥的路上踽踽独行。如果是的话那就联系我，本人出售哑铃，瑜伽垫，臂力棒等健身器材，比起原价一律半价。别再犹豫了，赶快拿起电话拨打17862921553订购吧。
+						<!-- <?php
+							//连接数据库
+							$link = mysql_connect("localhost", "root", "scll");
+							if (!$link) {
+								die('Could not connect: ' . mysql_error());
+							}
+							//选择数据库
+							mysql_select_db("my_db", $link);
+							//显示在页面上
+							$result = mysql_query("select * from sjdeallog order by id desc limit 1,1") or die(mysql_error());
+							while ($row = mysql_fetch_array($result)) {
+							//为添加的内容设置样式
+							echo "<table class='sell_infor'>";
+							//第一行
+							echo "<tr>";
+							echo "<td>姓名 ：</td>";
+							echo "<td>" . $row['username'] . "</td>";
+							echo "</tr>";
+							//第二行
+							echo "<tr>";
+							echo "<td>物件类型：</td>";
+							echo "<td>" . $row['type'] . "</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>实物图片：</td>";
+							echo "<td>详情请点击该栏目左下方MORE+</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>建议价格：</td>";
+							echo "<td>" . $row['price'] . "</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>详细描述：</td>";
+							echo "<td><textarea rows='5' cols='20' disabled='disabled'>" . $row['detail'] . "</textarea></td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>联系方式QQ：</td>";
+							echo "<td>" . $row['con'] . "</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>手机号码:</td>";
+							echo "<td>" . $row['conp'] . "</td>";
+							echo "</tr>";
+							echo "</table>";
+							}
+							mysql_close($link);
+						?> -->
+					</div>
+					<!--文本三-->
+					<div class="tzsctxt3">
+						<br/>讯息三  <br/><br/>你是否还在为在淘宝购买二专学习书籍话费时间长且贵，所购买的书籍图文不符而烦恼。别担心跳蚤二手书市场帮你解决，绝对物美价廉，应有尽有送货上门联系电话17862925512
+						<!-- <?php
+							//连接数据库
+							$link = mysql_connect("localhost", "root", "scll");
+							if (!$link) {
+								die('Could not connect: ' . mysql_error());
+							}
+							//选择数据库
+							mysql_select_db("my_db", $link);
+							//显示在页面上
+							$result = mysql_query("select * from sjdeallog order by id desc limit 2,1") or die(mysql_error());
+							while ($row = mysql_fetch_array($result)) {
+							//为添加的内容设置样式
+							echo "<table class='sell_infor'>";
+							//第一行
+							echo "<tr>";
+							echo "<td>姓名 ：</td>";
+							echo "<td>" . $row['username'] . "</td>";
+							echo "</tr>";
+							//第二行
+							echo "<tr>";
+							echo "<td>物件类型：</td>";
+							echo "<td>" . $row['type'] . "</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>实物图片：</td>";
+							echo "<td>详情请点击该栏目左下方MORE+</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>建议价格：</td>";
+							echo "<td>" . $row['price'] . "</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>详细描述：</td>";
+							echo "<td><textarea rows='5' cols='20' disabled='disabled'>" . $row['detail'] . "</textarea></td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>联系方式QQ：</td>";
+							echo "<td>" . $row['con'] . "</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>手机号码:</td>";
+							echo "<td>" . $row['conp'] . "</td>";
+							echo "</tr>";
+							echo "</table>";
+							}
+							mysql_close($link);
+						?> -->
+					</div>
+					<!--文本四-->
+					<div class="tzsctxt4">
+						<br/>讯息四  <br/><br/>你是否有过买的衣服穿着不合身，感觉过了潮流，与别人撞衫而不想要这些衣服的冲动。有的话就联系17862924424以最高价格收购，绝对让你满意。
+						<!-- <?php
+							//连接数据库
+							$link = mysql_connect("localhost", "root", "scll");
+							if (!$link) {
+								die('Could not connect: ' . mysql_error());
+							}
+							//选择数据库
+							mysql_select_db("my_db", $link);
+							//显示在页面上
+							$result = mysql_query("select * from sjdeallog order by id desc limit 3,1") or die(mysql_error());
+							while ($row = mysql_fetch_array($result)) {
+							//为添加的内容设置样式
+							echo "<table class='sell_infor'>";
+							//第一行
+							echo "<tr>";
+							echo "<td>姓名 ：</td>";
+							echo "<td>" . $row['username'] . "</td>";
+							echo "</tr>";
+							//第二行
+							echo "<tr>";
+							echo "<td>物件类型：</td>";
+							echo "<td>" . $row['type'] . "</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>实物图片：</td>";
+							echo "<td>详情请点击该栏目左下方MORE+</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>建议价格：</td>";
+							echo "<td>" . $row['price'] . "</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>详细描述：</td>";
+							echo "<td><textarea rows='5' cols='20' disabled='disabled'>" . $row['detail'] . "</textarea></td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>联系方式QQ：</td>";
+							echo "<td>" . $row['con'] . "</td>";
+							echo "</tr>";
+							echo "<tr>";
+							echo "<td>手机号码:</td>";
+							echo "<td>" . $row['conp'] . "</td>";
+							echo "</tr>";
+							echo "</table>";
+							}
+							mysql_close($link);
+						?> -->
+					</div>
+					
+				</div>
+				
+			</div>
+			<hr width="1200px" color="#ADADAD" size="2" class="bottomline3"/>
+			
+			
+			<!--校区快递-->
+			<div class="xqkd" id="tips2">
+			<!-- <a id="tips2"></a> -->	
+				<!--校区快递二级菜单位置left-->
+				<div class="xqkdList">
+					<hr width="30px" color="#000000" size="2" />
+					<h1>校区快递</h1><br />
+					<p>将全校区同学都发展成为自由快递人，提倡自由快递人根据自己的行程，随程捎带，使快件不落地，直送直达，并以此节约社会资源，达到快递也环保、低碳、绿色的目的，通过传递人人参与、互帮互助、爱心捐赠、享受公益的生活理念。</p>
+					<!-- <a href="#tips2" class="xqkdmore" onclick="alert('该栏目尚在开发敬请期待！')">MORE+</a> -->
+				</div>
+				
+				<!--校区快递内容-->
+				<div class="xqkdContent">
+					<!--文本一-->
+					<div class="xqkdtxt1">
+						<br/>讯息一  <br/><br/>&nbsp;&nbsp;本宝宝8.15在舜耕校区上二专时不慎将u盘落在教室3-210，有在舜耕的同学来圣井能帮我带来吗，不甚感激-张三17862923346
+					</div>
+					<!--文本二-->
+					<div class="xqkdtxt2">
+						<br/>讯息二  <br/><br/>&nbsp;&nbsp;有谁能告诉我为什么快递被发到了明水，宝宝在圣井啊，有好心的同学能帮我带来吗？李四-17862924456
+					</div>
+					<!--文本三-->
+					<div class="xqkdtxt3">
+						<br/>讯息三  <br/><br/>&nbsp;&nbsp;本人的京东快递今天到达学校了，而我今天回不去，有谁能帮我拿一下吗？
+					</div>
+					<!--文本四-->
+					<div class="xqkdtxt4">
+						<br/>讯息四 <br/><br/>&nbsp;&nbsp;下课时走的太匆忙，把可爱的微观经济学课本落在了燕山校区2-110，有来舜耕上课的小伙伴帮我带来吧（QAQ）17862928874-王五
+					</div>
+					
+				</div>
+				
+			</div>
+			<hr width="1200px" color="#ADADAD" size="2" class="bottomline4"/>
+			
+			
+			<!--校园资讯-->
+			<div class="xyzx" id="tips3">
+			<!-- <a id="tips3"></a> -->	
+				<!--校园资讯二级菜单位置left-->
+				<div class="xyzxList">
+					<hr width="30px" color="#000000" size="2" />
+					<h1>校园资讯</h1><br />
+					<p> 从严格的意义上讲，新闻是一种资讯。资讯是一种信息，涵盖的不只是新闻，还可以包括其他媒介。如亲临专家讲座等等。</p>
+					<!-- <a href="#tips3" class="xyzxmore" onclick="alert('该栏目尚在开发敬请期待！')">MORE+</a> -->
+				</div>
+				
+				<!--校园资讯内容-->
+				<div class="xyzxContent">
+					<!--文本一-->
+					<div class="xyzxtxt1">
+						<br/>讯息一  <br/><br/>&nbsp;&nbsp;我校成功举办新生军训阅兵大会暨开学典礼，会上校长卓志发表重要讲话。
+					</div>
+					<!--文本二-->
+					<div class="xyzxtxt2">
+						<br/>讯息二  <br/><br/>&nbsp;&nbsp;关于中秋节放假的通知（及班车安排）9月15日（中秋节）至17日放假调休，共三天，全校停课；9月18日（星期日）上班，教师按教学计划上课。班车安排：9月15日至17日教职工班车停运；9月18日按照周日班车安排运行，同时对发舜耕、燕山两校区间班车，时间为：8:00、12:00、13:30、17:30，乘车地点不变
+					</div>
+					<!--文本三-->
+					<div class="xyzxtxt3">
+						<br/>讯息三  <br/><br/>&nbsp;&nbsp;关于九月份工资津贴的发放通知  因银行和财政厅系统的原因，导致部分持有建行和中行卡的教职工没有按时收到工资和津贴。为保证中秋节前将工资、津贴发放到位，经协调银行，临时将9月份在职教职工津贴调整到农行卡发放，离退休教职工仍按原渠道发放到建行卡。
+
+					</div>
+					<!--文本四-->
+					<div class="xyzxtxt4">
+						<br/>讯息四  <br/><br/>&nbsp;&nbsp;关于四六级报名的通知  请要参加四六级考试的同学前往官网报名，截止时间9.9-9.12，请大家合理安排时间，不要耽误报考。
+
+					</div>
+					
+				</div>
+				
+			</div>
+			<hr width="1200px" color="#ADADAD" size="2" class="bottomline5"/>
+			
+			<!--关于我们-->
+			<div class="gywm">
+				
+				<!--团队-->
+				<div class="tdjs">
+					
+					<h1>山东建筑大学</h1>
+					<!-- <p>四只单身汪的聚集地!</p> -->
+					
+				</div>
+				<!--技术支持-->
+				<div class="jszc">
+					
+					<h2>意见反馈</h2>
+					
+				</div>
+				<!--关注我们-->
+				<div class="gzwm">
+					
+					<p>官方微信&nbsp;官方微博</p>
+					
+				</div>
+				
+				
+			</div>
+			
+			
+			
+			
+		</div>
+		<div class="mengban">
+			
+		</div>
+		
+	</body>
+</html>
+
+

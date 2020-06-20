@@ -1,0 +1,897 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+#content{
+	width: 1310px;
+	height: 1300px;
+	margin: 20px;
+	/*background: #F5F5F5;*/
+	background: -moz-linear-gradient(top, #FFFFFF, #F5F5F5);
+	background: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#FFFFFF), to(#F5F5F5));
+	position: absolute;
+}
+
+/*--标题--*/
+.title{
+	width: 945px;
+	height: 282px;
+	position: absolute;
+	top: 110px;
+	left: 180px;
+}
+.title img{
+	width: 945px;
+	height: 282px;
+	position: absolute;
+}
+.titleslide{
+	width: 1310px;
+	height: 500px;
+	position: absolute;
+	opacity: 0.5;
+	/*background: wheat;*/
+	overflow: hidden;
+}
+.small{
+	width: 150px;
+	height: 800px;
+	transform: rotate(-30deg);
+	background: white;
+	opacity: 0.5;
+	position: absolute;
+	top: -200px;
+	left: -130px;
+}
+.small-Animate{
+	left: 1600px;
+	transition: left 4s;
+}
+/*--------*/
+/*--六边形盒子部分--*/
+.hexagon{
+	width: 1310px;
+	height: 800px;
+	position: absolute;
+	top: 450px;
+	/*background: rgba(10,10,10,0.5);*/
+}
+/*--圣井盒子--*/
+.sjbox1{
+	width: 225px;
+	height: 260px;
+	top: 460px;
+	left: 425px;
+	position: absolute;
+	overflow: hidden;
+}
+.sjbox2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.sjbox3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+.sjbox3 img{
+	
+	opacity: 1;
+	width: 225px;
+	height: 260px;
+	transform: rotate(-60deg);
+}
+.sjbox3 img:hover{
+	
+	opacity: 0.6;
+	width: 242px; 
+	height: 280px;
+	transition: opacity 1s,width 1s,height 1s;
+}
+.sjbox1 h2{
+	width: 27px;
+	height: 70px;
+	position: absolute;
+	top: 70px;
+	left: 70px;
+}
+/*--------*/
+/*--明水盒子--*/
+.msbox1{
+	width: 225px;
+	height: 260px;
+	top: 460px;
+	left: 895px;
+	position: absolute;
+	overflow: hidden;
+}
+.msbox2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.msbox3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+.msbox3 img{
+	
+	opacity: 1;
+	width: 225px;
+	height: 260px;
+	transform: rotate(-60deg);
+}
+.msbox3 img:hover{
+	
+	opacity: 0.6;
+	width: 242px; 
+	height: 280px;
+	transition: opacity 1s,width 1s,height 1s;
+}
+.msbox1 h2{
+	width: 27px;
+	height: 70px;
+	position: absolute;
+	top: 70px;
+	left: 70px;
+}
+/*--------*/
+/*--舜耕盒子--*/
+.sgbox1{
+	width: 225px;
+	height: 260px;
+	top: 255px;
+	left: 72px;
+	position: absolute;
+	overflow: hidden;
+}
+.sgbox2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.sgbox3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+.sgbox3 img{
+	
+	opacity: 1;
+	width: 225px;
+	height: 260px;
+	transform: rotate(-60deg);
+}
+.sgbox3 img:hover{
+	
+	opacity: 0.6;
+	width: 242px; 
+	height: 280px;
+	transition: opacity 1s,width 1s,height 1s;
+}
+.sgbox1 h2{
+	width: 27px;
+	height: 70px;
+	position: absolute;
+	top: 70px;
+	left: 70px;
+}
+/*--------*/
+/*--燕山盒子--*/
+.ysbox1{
+	width: 225px;
+	height: 260px;
+	top: 50px;
+	left: 425px;
+	position: absolute;
+	overflow: hidden;
+}
+.ysbox2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.ysbox3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+.ysbox3 img{
+	
+	opacity: 1;
+	width: 225px;
+	height: 260px;
+	transform: rotate(-60deg);
+}
+.ysbox3 img:hover{
+	
+	opacity: 0.6;
+	width: 242px; 
+	height: 280px;
+	transition: opacity 1s,width 1s,height 1s;
+}
+.ysbox1 h2{
+	width: 27px;
+	height: 70px;
+	position: absolute;
+	top: 70px;
+	left: 70px;
+}
+/*--------*/
+/*--开发团队盒子--*/
+.kfbox1{
+	width: 225px;
+	height: 260px;
+	top: 50px;
+	left: 190px;
+	position: absolute;
+	overflow: hidden;
+}
+.kfbox2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.kfbox3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	background: lightcoral;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+/*--------*/
+/*--功能介绍盒子--*/
+.gnbox1{
+	width: 225px;
+	height: 260px;
+	top: 255px;
+	left: 307px;
+	position: absolute;
+	overflow: hidden;
+}
+.gnbox2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.gnbox3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	background: lemonchiffon;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+/*--------*/
+/*--团队logo盒子--*/
+.logobox1{
+	width: 225px;
+	height: 260px;
+	top: 254px;
+	left: 542px;
+	position: absolute;
+	overflow: hidden;
+}
+.logobox2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.logobox3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	background: lightblue;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+/*--------*/
+/*--其他1盒子--*/
+.else1box1{
+	width: 225px;
+	height: 260px;
+	top: 254px;
+	left: 777px;
+	position: absolute;
+	overflow: hidden;
+}
+.else1box2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.else1box3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	background: lightcyan;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+/*--------*/
+/*--else2--*/
+.else2box1{
+	width: 225px;
+	height: 260px;
+	top: 254px;
+	left: 1013px;
+	position: absolute;
+	overflow: hidden;
+}
+.else2box2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.else2box3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	background: lightgreen;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+/*--------*/
+/*--else3--*/
+.else3box1{
+	width: 225px;
+	height: 260px;
+	top: 460px;
+	left: 190px;
+	position: absolute;
+	overflow: hidden;
+}
+.else3box2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.else3box3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	background: lightgreen;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+/*--------*/
+/*--else4--*/
+.else4box1{
+	width: 225px;
+	height: 260px;
+	top: 50px;
+	left: 660px;
+	position: absolute;
+	overflow: hidden;
+}
+.else4box2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.else4box3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	background: lightpink;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+/*--------*/
+/*--else5--*/
+.else5box1{
+	width: 225px;
+	height: 260px;
+	top: 460px;
+	left: 660px;
+	position: absolute;
+	overflow: hidden;
+}
+.else5box2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.else5box3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	background: lightsalmon;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+/*--------*/
+/*--else6--*/
+.else6box1{
+	width: 225px;
+	height: 260px;
+	top: 50px;
+	left: 895px;
+	position: absolute;
+	overflow: hidden;
+}
+.else6box2{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	transform: rotate(120deg);
+	overflow: hidden;
+}
+.else6box3{
+	width: 225px;
+	height: 260px;
+	position: absolute;
+	background: lightsteelblue;
+	transform: rotate(-60deg);
+	overflow: hidden;
+}
+/*--------*/
+/*-四校区动画-*/
+.fourcampus-ms{
+	width: 1310px;
+	height: 800px;
+	position: absolute;
+	top: 450px;
+	display: none;
+	/*background: rgba(10,10,10,0.5);*/
+}
+.fourcampus-ms img{
+	width: 225px;
+	height: 260px;
+	display: none;
+}
+.close{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 150px;
+	right: 50px;
+	background: url(../img/x.png);
+}
+.enterms{
+	width: 100px;
+	height: 34px;
+	position: absolute;
+	right: 50px;
+	top: 600px;
+	background: url(../img/enter.png);
+	/*color: #90EE90;
+	font-size: 20px;*/
+}
+.msss{
+	width: 64px;
+	height: 260px;
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	background: url(../img/ms/ms14.png);
+	font-size: 40px;
+}
+.ms1{
+	top: 50px;
+	left: 190px;
+	position: absolute;
+}
+.ms2{
+	top: 50px;
+	left: 425px;
+	position: absolute;
+}
+.ms3{
+	top: 50px;
+	left: 660px;
+	position: absolute;
+}
+.ms4{
+	top: 50px;
+	left: 895px;
+	position: absolute;
+}
+.ms5{
+	top: 255px;
+	left: 72px;
+	position: absolute;
+}
+.ms6{
+	top: 255px;
+	left: 307px;
+	position: absolute;
+}
+.ms7{
+	top: 254px;
+	left: 542px;
+	position: absolute;
+}
+.ms8{
+	top: 254px;
+	left: 777px;
+	position: absolute;
+}
+.ms9{
+	top: 254px;
+	left: 1013px;
+	position: absolute;
+}
+.ms10{
+	top: 460px;
+	left: 190px;
+	position: absolute;
+}
+.ms11{
+	top: 460px;
+	left: 425px;
+	position: absolute;
+}
+.ms12{
+	top: 460px;
+	left: 660px;
+	position: absolute;
+}
+.ms13{
+	top: 460px;
+	left: 895px;
+	position: absolute;
+}
+/*--------*/
+/*-四校区动画-*/
+.fourcampus-sj{
+	width: 1310px;
+	height: 800px;
+	position: absolute;
+	top: 450px;
+	display: none;
+	/*background: rgba(10,10,10,0.5);*/
+}
+.fourcampus-sj img{
+	width: 225px;
+	height: 260px;
+	display: none;
+}
+.close-sj{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 150px;
+	right: 50px;
+	background-image: url(../img/x.png);
+}
+.entersj{
+	width: 100px;
+	height: 34px;
+	position: absolute;
+	right: 50px;
+	top: 600px;
+	background: url(../img/enter.png);
+	/*color: #90EE90;*/
+	/*font-size: 20px;*/
+}
+.sjql{
+	width: 64px;
+	height: 260px;
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	background: url(../img/sj/sj14.png);
+	/*font-size: 40px;*/
+}
+.sj1{
+	top: 50px;
+	left: 190px;
+	position: absolute;
+}
+.sj2{
+	top: 50px;
+	left: 425px;
+	position: absolute;
+}
+.sj3{
+	top: 50px;
+	left: 660px;
+	position: absolute;
+}
+.sj4{
+	top: 50px;
+	left: 895px;
+	position: absolute;
+}
+.sj5{
+	top: 255px;
+	left: 72px;
+	position: absolute;
+}
+.sj6{
+	top: 255px;
+	left: 307px;
+	position: absolute;
+}
+.sj7{
+	top: 254px;
+	left: 542px;
+	position: absolute;
+}
+.sj8{
+	top: 254px;
+	left: 777px;
+	position: absolute;
+}
+.sj9{
+	top: 254px;
+	left: 1013px;
+	position: absolute;
+}
+.sj10{
+	top: 460px;
+	left: 190px;
+	position: absolute;
+}
+.sj11{
+	top: 460px;
+	left: 425px;
+	position: absolute;
+}
+.sj12{
+	top: 460px;
+	left: 660px;
+	position: absolute;
+}
+.sj13{
+	top: 460px;
+	left: 895px;
+	position: absolute;
+}
+/*--------*/
+/*-四校区动画-*/
+.fourcampus-ys{
+	width: 1310px;
+	height: 800px;
+	position: absolute;
+	top: 450px;
+	display: none;
+	/*background: rgba(10,10,10,0.5);*/
+}
+.fourcampus-ys img{
+	width: 225px;
+	height: 260px;
+	display: none;
+}
+.close-ys{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 150px;
+	right: 50px;
+	background-image: url(../img/x.png);
+}
+.enterys{
+	width: 100px;
+	height: 34px;
+	position: absolute;
+	right: 50px;
+	top: 600px;
+	background: url(../img/enter.png);
+	/*color: #90EE90;*/
+	/*font-size: 20px;*/
+}
+.ysww{
+	width: 64px;
+	height: 260px;
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	background: url(../img/ys/ys14.png);
+	/*background: lightblue;*/
+	/*font-size: 40px;*/
+}
+.ys1{
+	top: 50px;
+	left: 190px;
+	position: absolute;
+}
+.ys2{
+	top: 50px;
+	left: 425px;
+	position: absolute;
+}
+.ys3{
+	top: 50px;
+	left: 660px;
+	position: absolute;
+}
+.ys4{
+	top: 50px;
+	left: 895px;
+	position: absolute;
+}
+.ys5{
+	top: 255px;
+	left: 72px;
+	position: absolute;
+}
+.ys6{
+	top: 255px;
+	left: 307px;
+	position: absolute;
+}
+.ys7{
+	top: 254px;
+	left: 542px;
+	position: absolute;
+}
+.ys8{
+	top: 254px;
+	left: 777px;
+	position: absolute;
+}
+.ys9{
+	top: 254px;
+	left: 1013px;
+	position: absolute;
+}
+.ys10{
+	top: 460px;
+	left: 190px;
+	position: absolute;
+}
+.ys11{
+	top: 460px;
+	left: 425px;
+	position: absolute;
+}
+.ys12{
+	top: 460px;
+	left: 660px;
+	position: absolute;
+}
+.ys13{
+	top: 460px;
+	left: 895px;
+	position: absolute;
+}
+/*--------*/
+/*-四校区动画-*/
+.fourcampus-sg{
+	width: 1310px;
+	height: 800px;
+	position: absolute;
+	top: 450px;
+	display: none;
+	/*background: rgba(10,10,10,0.5);*/
+}
+.fourcampus-sg img{
+	width: 225px;
+	height: 260px;
+	display: none;
+}
+.close-sg{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 150px;
+	right: 50px;
+	background-image: url(../img/x.png);
+}
+.entersg{
+	width: 100px;
+	height: 34px;
+	position: absolute;
+	right: 50px;
+	top: 600px;
+	background: url(../img/enter.png);
+	/*color: #90EE90;*/
+	/*font-size: 20px;*/
+}
+.sgbf{
+	width: 64px;
+	height: 260px;
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	background: url(../img/sg/sg14.png);
+	/*background: lightblue;*/
+	/*font-size: 40px;*/
+}
+.sg1{
+	top: 50px;
+	left: 190px;
+	position: absolute;
+}
+.sg2{
+	top: 50px;
+	left: 425px;
+	position: absolute;
+}
+.sg3{
+	top: 50px;
+	left: 660px;
+	position: absolute;
+}
+.sg4{
+	top: 50px;
+	left: 895px;
+	position: absolute;
+}
+.sg5{
+	top: 255px;
+	left: 72px;
+	position: absolute;
+}
+.sg6{
+	top: 255px;
+	left: 307px;
+	position: absolute;
+}
+.sg7{
+	top: 254px;
+	left: 542px;
+	position: absolute;
+}
+.sg8{
+	top: 254px;
+	left: 777px;
+	position: absolute;
+}
+.sg9{
+	top: 254px;
+	left: 1013px;
+	position: absolute;
+}
+.sg10{
+	top: 460px;
+	left: 190px;
+	position: absolute;
+}
+.sg11{
+	top: 460px;
+	left: 425px;
+	position: absolute;
+}
+.sg12{
+	top: 460px;
+	left: 660px;
+	position: absolute;
+}
+.sg13{
+	top: 460px;
+	left: 895px;
+	position: absolute;
+}
+
+
+
+
+
