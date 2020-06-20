@@ -1,0 +1,38 @@
+<?php
+
+$servername = "172.17.0.4";
+$username = "root";
+$password = "123456";
+$dbname = "docker_user";
+// 创建连接
+$conn = mysqli_connect($servername,$username,$password,$dbname);
+#$conn = mysqli_connect(getenv("MYSQL_ADDR"),getenv("MYSQL_USER"),getenv("MYSQL_PASS"),"docker_user");
+// Check connection
+if (!$conn) {
+    die("连接失败: " . mysqli_connect_error());
+}
+mysqli_query("SET NAMES utf8");
+$sql = "SELECT * FROM port_pass";
+$result = mysqli_query($conn, $sql);
+
+echo " 11 ";
+
+if (!$result) {
+    die("result false! ");
+}
+
+if (mysqli_num_rows($result) > 0) {
+    // 输出数据
+    while($row = mysqli_fetch_assoc($result)) {
+        echo "port: " . $row['port']. " - pass: " . $row['pass']. "<br>";
+        echo " 111 ";
+        #echo "port: " . $row[0]. " - pass: " . $row[1]. "<br>";
+    }
+} else {
+    echo "0 结果";
+}
+
+mysqli_close($conn);
+
+
+?>

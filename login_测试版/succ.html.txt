@@ -1,0 +1,9 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>欢迎您</title>
+</head>
+<body>
+<h1>欢迎您的到来！</h1>
+</body>
+</html>
